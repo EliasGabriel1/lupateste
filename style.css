@@ -5,14 +5,14 @@
 }
 
 .zoomPad {
-  cursor: crosshair;
   width: 437.5px;
   height: 437.5px;
   overflow: hidden;
 }
-.zoomPad >img {
+
+.zoomPad>img {
   transform-origin: center center;
-  cursor: pointer;
+  cursor: crosshair;
   width: 100%;
   height: 100%;
   object-fit: cover;
