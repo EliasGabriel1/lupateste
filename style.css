@@ -5,6 +5,7 @@
 }
 
 .zoomPad {
+  cursor: crosshair;
   width: 437.5px;
   height: 437.5px;
   overflow: hidden;
