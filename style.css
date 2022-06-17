@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.zoomPad {
+  width: 437.5px;
+  height: 437.5px;
+  overflow: hidden;
+}
+.zoomPad >img {
+  transform-origin: center center;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
