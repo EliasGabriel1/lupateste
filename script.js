@@ -1,8 +1,8 @@
-var zoomPad = document.querySelector(".zoomPad");
-zoomPad.setAttribute("id","image-product")
+var zoomPad = document.querySelector("#include .zoomPad");
+zoomPad.setAttribute("class","image-product zoomPad")
 
-const imageproduct = document.getElementById("image-product");
-const img = document.getElementById("img");
+const imageproduct = document.querySelector(".zoomPad");
+const img = document.querySelector(".zoomPad img");
 
 imageproduct.addEventListener("mousemove", (z) => {
   const x = z.clientX - z.target.offsetLeft;
